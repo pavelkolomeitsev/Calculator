@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tvClear"
+            style="@style/ButtonStyle"
+            android:text="@string/btnClear"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvPlusMinus"
+            style="@style/ButtonStyle"
+            android:text="@string/btnPlusMinus"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvPercent"
+            style="@style/ButtonStyle"
+            android:text="@string/btnPercent"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvDivide"
+            style="@style/ButtonStyle"
+            android:text="@string/btnDivide"
+            android:onClick="buttonClick"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tvSeven"
+            style="@style/ButtonStyle"
+            android:text="@string/btnSeven"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvEight"
+            style="@style/ButtonStyle"
+            android:text="@string/btnEight"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvNine"
+            style="@style/ButtonStyle"
+            android:text="@string/btnNine"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvMultiply"
+            style="@style/ButtonStyle"
+            android:text="@string/btnMultiply"
+            android:onClick="buttonClick"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tvFour"
+            style="@style/ButtonStyle"
+            android:text="@string/btnFour"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvFive"
+            style="@style/ButtonStyle"
+            android:text="@string/btnFive"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvSix"
+            style="@style/ButtonStyle"
+            android:text="@string/btnSix"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvMinus"
+            style="@style/ButtonStyle"
+            android:text="@string/btnMinus"
+            android:onClick="buttonClick"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tvOne"
+            style="@style/ButtonStyle"
+            android:text="@string/btnOne"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvTwo"
+            style="@style/ButtonStyle"
+            android:text="@string/btnTwo"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvThree"
+            style="@style/ButtonStyle"
+            android:text="@string/btnThree"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvPlus"
+            style="@style/ButtonStyle"
+            android:text="@string/btnPlus"
+            android:onClick="buttonClick"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tvDot"
+            style="@style/ButtonStyle"
+            android:text="@string/btnDot"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvZero"
+            style="@style/ButtonStyle"
+            android:text="@string/btnZero"
+            android:onClick="buttonClick"/>
+        <Button
+            android:id="@+id/tvBackSpace"
+            style="@style/ButtonStyle"
+            android:text="@string/btnBackspace"
+            android:onClick="buttonClick"/>
+
+        <Button
+            android:id="@+id/tvEquals"
+            style="@style/ButtonStyle"
+            android:text="@string/btnEquals"
+            android:onClick="buttonClick"/>
+
+    </LinearLayout>
+
+</LinearLayout>
