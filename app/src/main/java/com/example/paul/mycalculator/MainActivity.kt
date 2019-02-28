@@ -175,4 +175,29 @@ class MainActivity : AppCompatActivity() {
         expression.append(value)
         tvProcessing.text = expression
     }
+
+    override fun onSaveInstanceState(outState: Bundle?) {
+
+        outState?.run {
+            putString("numbers_0", numbers[0]) //"Processing", tvProcessing.text.toString()
+            putString("numbers_1", numbers[1]) //"Result", tvResult.text.toString()
+            putString("operator", operator)
+            putString("expression", expression.toString())
+            putString("Processing", tvProcessing.text.toString())
+            putString("Result", tvResult.text.toString())
+        }
+
+        super.onSaveInstanceState(outState)
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle?) {
+        super.onRestoreInstanceState(savedInstanceState)
+
+        numbers[0] = savedInstanceState?.getString("numbers_0").toString()
+        numbers[1] = savedInstanceState?.getString("numbers_1").toString()
+        operator = savedInstanceState?.getString("operator").toString()
+        expression = StringBuilder(savedInstanceState?.getString("expression"))
+        tvProcessing.text = savedInstanceState?.getString("Processing")
+        tvResult.text = savedInstanceState?.getString("Result")
+    }
 }
